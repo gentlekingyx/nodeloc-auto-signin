@@ -3,7 +3,7 @@ name: NodeLoc 每日签到
 on:
   schedule:
     # UTC 03:09 = 北京时间 11:09
-    - cron: "9 3 * * *"
+    - cron: "9 0 * * *"
   workflow_dispatch:
 
 permissions:
